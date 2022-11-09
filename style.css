@@ -1,7 +1,9 @@
 
-
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
 .navbar-nav{
-    margin-right: 80px;
+    margin-right: 60px;
 }
 li{
     padding: 0px 14px;
@@ -15,7 +17,6 @@ li{
     width: 100%;
 }
 .carousal-main{
-    font-family: 'Ubuntu', sans-serif;
     height: 550px;
     background-image: url("items/bg-2.png");
     background-repeat: no-repeat;
@@ -31,7 +32,7 @@ p{
     background-position: 47%;
     background-size: 70px;
 }
-.row h2{
+.rows-2 h2{
     font-size: 45px;
     font-weight: 800;
 }
@@ -43,4 +44,32 @@ p{
     color: white;
     font-size: 15px;
     margin-top: 10px;
+}
+.phn-title{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.sp-1{
+    font-size: 23px;
+    font-weight: 700;
+}
+.sp-2{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(226, 38, 38);
+}
+.sp-2:hover{
+    color: rgb(230, 109, 109);
+}
+.card{
+    border: none !important;
+    box-shadow: 0 0 25px rgb(212, 212, 212);
+    padding: 50px 10px;
+
+}
+.card .img-1{
+    width:70%;
+}
+.card .img-2{
+    width:90%;
 }
