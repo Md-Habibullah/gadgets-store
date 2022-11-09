@@ -1,0 +1,46 @@
+
+
+.navbar-nav{
+    margin-right: 80px;
+}
+li{
+    padding: 0px 14px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.logo{
+    width: 50%;
+}
+.carousel img{
+    width: 100%;
+}
+.carousal-main{
+    font-family: 'Ubuntu', sans-serif;
+    height: 550px;
+    background-image: url("items/bg-2.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: 150px;
+}
+p{
+    color:rgb(158, 158, 158);
+}
+.carousel-bag{
+    background-image: url("items/bg-1.png");
+    background-repeat: no-repeat;
+    background-position: 47%;
+    background-size: 70px;
+}
+.row h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+.btn-2{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0)100%) ;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 22px;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
